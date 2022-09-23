@@ -1,0 +1,143 @@
+.site-layout-content {
+    min-height:480px;
+    padding: 24px;
+    background: #fff;
+    /* width: 850px; */
+    justify-content: center;
+    justify-items: center;
+    margin-top: 0 !important;
+    /* margin: 16px 24px 16px 0;  */
+   /* margin-top: -2.25rem !important; */
+  }
+  Content{
+    /* margin-top: 0 !important; */
+   margin-top: -4.25rem !important;
+  }
+  Layout{
+  /* margin-top: 0 !important; */
+  margin-top: -4.25rem !important;
+}
+
+    [data-theme="dark"] .site-layout-content {
+      background: #141414;
+    }
+    @media  (max-width: 575.98px) {
+      .site-layout-content{    
+        /* width: 350px; */
+      
+    } }
+
+
+    @media (max-width: 575.98px) {
+        .site-layout-content{    
+      /* width: 350px; */
+    
+  }   .Content{
+    margin-top: -600px;
+   top: -600px  
+  }
+.Layout{
+  margin-top: -600px ;
+  top: -600px   
+} }
+
+@media (max-width: 767.98px) {  
+  .site-layout-content{    
+  width: 350px;
+  margin-top: -20px,
+}   .Content{
+  margin-top: -600px;
+ top: -600px  
+}
+.Layout{
+margin-top: -600px ;
+top: -600px   
+}}
+
+@media (max-width: 991.98px) {  
+  .site-layout-content{    
+  width: 350px;
+  margin-top: -20px,
+}  .Content{
+  margin-top: -600px;
+ top: -600px  
+}
+.Layout{
+margin-top: -600px ;
+top: -600px   
+}
+ }
+
+@media (max-width: 1199.98px) {  .site-layout-content{    
+  width: 350px; 
+ 
+}   .Content{
+  margin-top: -600px;
+ top: -600px  
+}
+.Layout{
+margin-top: -600px ;
+top: -600px   
+}}
+
+@media (max-width: 1399.98px) {   .site-layout-content{    
+  width: 650px;
+  margin-top: -20px,
+}  .Content{
+  margin-top: -600px;
+ top: -600px  
+}
+.Layout{
+margin-top: -600px ;
+top: -600px   
+} }
+ 
+a:hover {
+  background-color: lightcyan;
+  text-decoration: none;
+  color: #141414;
+  
+  text-decoration-color: black;
+}
+.text{
+  background-color:rgb(13, 13, 44);
+}
+.strike {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap; 
+}
+
+.strike > span {
+  position: relative;
+  display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 9999px;
+  height: 1px;
+  background: rgb(216, 212, 212);
+}
+.layout-design{
+  top: -140px;
+    /* margin-top: -40px , */
+    margin-top: -6.25rem !important;
+  
+}
+.strike > span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+.strike > span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+.imgp{
+  width: 15%
+}
